@@ -1,0 +1,18 @@
+<view class="header">    
+  欢迎使用史迪奇智能管家
+  </view>
+<swiper autoplay='true' circular='true' interval='2000' previous-margin='50px' next-margin='50px' bindchange="swiperChange" style='height:{{swiperH}};'>
+  <swiper-item wx:for='{{imgList}}' wx:key=''>
+    <image class='le-img {{nowIdx==index?"le-active":""}}' bindload='getHeight' src='{{item}}' style='height:{{swiperH}};'></image>
+  </swiper-item>
+</swiper>
+<view class="view_class">
+<button class='btn' bindtap="home1">
+    <image class='btnImg' src='/image/太阳.png'></image>
+    <view>起床后</view>
+ </button>
+ <button class='btn' bindtap="home2">
+    <image class='btnImg' src='/image/月亮.png'></image>
+    <view>入梦前</view>
+ </button>
+</view>

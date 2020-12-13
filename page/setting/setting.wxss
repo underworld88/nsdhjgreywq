@@ -1,0 +1,68 @@
+swiper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+ }
+ .le-img {
+	width: 100%;
+	display: block;
+	transform: scale(0.8);
+	transition: all 0.3s ease;
+	border-radius: 6px;
+ }
+ .le-img.le-active {
+	transform: scale(1);
+ }
+ .btn{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  background-color: white;
+  color: #535151;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+}
+
+.btnImg {
+  width: 125rpx;
+  height: 128rpx;
+}
+
+.btn::after {
+  border: 0; 
+}
+
+.view_class {
+  display: flex;
+   flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+   }
+
+   .header{
+    text-align: center;
+    font-size: 40rpx;
+    color: #4f74ee;
+    margin-bottom: 40px;
+    width:100%;
+    position: relative;
+    height:30px;
+  }
+  .header::after{
+    content:'TheSmartButler';
+    position:absolute;
+    width: 20rem;
+    z-index: 1;
+    text-align: center;
+    color: rgba(119, 116, 116, 0.5);
+    font-size: 100rpx;
+    left: 0;
+    bottom:-50px;
+  }
+  
+  .userinfo-nickname {
+    color: #803bee;
+  }

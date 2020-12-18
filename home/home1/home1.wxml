@@ -1,0 +1,17 @@
+<image class="background" src="/image/bg早早.jpg"mode="aspectFill"></image>
+<view class="tickle">morning</view>
+ <view>
+ <button class='btn'  bindtap="tianqi">
+    <image class='btnImg' src='/image/纸飞机.png'></image>
+    <view>智能监测</view>
+ </button>
+ <button class='btn'  bindtap="calendar">
+    <image class='btnImg' src='/image/日历.png'></image>
+    <view>今日日程</view>
+ </button>
+ <button class='btn'  bindtap="zhihu">
+    <image class='btnImg' src='/image/知乎.png'></image>
+    <view>知乎热榜</view>
+ </button>
+ </view>
+
